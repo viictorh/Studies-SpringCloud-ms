@@ -37,6 +37,10 @@ public class WorkerResource {
 	@GetMapping(value = "/{id}")
 	public ResponseEntity<Worker> findById(@PathVariable Long id) throws NotFoundException {
 		logger.info("PORT = " + env.getProperty("local.server.port"));
+		try {
+			Thread.sleep(3000L);
+		} catch (InterruptedException e) {
+		}
 		Worker worker = workerRepository.findById(id).orElseThrow(NotFoundException::new);
 		return ResponseEntity.ok(worker);
 	}
