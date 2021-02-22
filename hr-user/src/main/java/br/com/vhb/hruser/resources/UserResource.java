@@ -26,7 +26,7 @@ public class UserResource {
 	}
 
 	@GetMapping(value = "/search")
-	public ResponseEntity<User> findById(@RequestParam String email) throws NotFoundException {
+	public ResponseEntity<User> findByEmail(@RequestParam String email) throws NotFoundException {
 		User user = repository.findByEmail(email).orElseThrow(NotFoundException::new);
 		return ResponseEntity.ok(user);
 	}
