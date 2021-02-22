@@ -3,7 +3,7 @@ Estudo sobre utilização de Microserviços com springcloud tendo como referenci
 
 ## Arquitetura Final
 
-![Arquitetura](/doc-images/arquitetura do projeto.pdf.png)
+![Arquitetura](/doc-images/arquitetura_do_projeto.pdf.png)
 
 ## hr-api-gateway-zuul
 
