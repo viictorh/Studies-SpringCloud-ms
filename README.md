@@ -13,6 +13,10 @@ Estudo sobre utilização de Microserviços com springcloud tendo como referenci
 
 ## hr-worker
 
+## hr-user
+Projeto responsável por controlar as informações dos usuários e seus perfis. 
+Por padrão, o spring-security utiliza o nome do perfil como **ROLE_**perfil
+
 ## hr-config-server
 
 Este projeto possibilita a configuração de em um repositorio. Com ele, todas as configurações podem ser buscadas em algum local e utilizadas pelas aplicações. 
