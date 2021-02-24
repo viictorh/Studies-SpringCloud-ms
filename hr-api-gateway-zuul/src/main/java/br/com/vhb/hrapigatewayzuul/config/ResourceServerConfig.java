@@ -2,8 +2,6 @@ package br.com.vhb.hrapigatewayzuul.config;
 
 import java.util.Arrays;
 
-import javax.servlet.Filter;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
